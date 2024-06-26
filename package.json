@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "webpack serve --mode development --open",
-    "build": "webpack --mode production",
+    "build": "webpack --config webpack.config.js",
     "start": "webpack serve --mode development --open"
   },
   "dependencies": {
@@ -15,22 +15,16 @@
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-typescript": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "@vue/eslint-config-typescript": "^9.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "prettier": "^2.4.1",
-    "sass": "^1.32.7",
-    "sass-loader": "^12.0.0",
-    "typescript": "~4.5.5"
+    "@typescript-eslint/eslint-plugin": "3.6.1",
+    "@typescript-eslint/parser": "3.6.1",
+    "bip39": "3.0.2",
+    "chai": "4.2.0",
+    "eslint": "7.4.0",
+    "mocha": "8.0.1",
+    "rust-lib": "file:../rust/pkg",
+    "source-map-support": "0.5.19",
+    "ts-node": "8.10.2",
+    "typescript": "3.9.7"
   },
   "description": "## Project setup ``` npm install ```",
   "main": ".eslintrc.js",
