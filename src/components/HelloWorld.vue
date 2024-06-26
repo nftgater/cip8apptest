@@ -11,7 +11,7 @@ import { Buffer } from "buffer";
 let csl, wallet;
 
 async function loadCsl(){
-    csl = await import("@emurgo/cardano-serialization-lib-browser/cardano_serialization_lib");
+    csl = await import("@emurgo/cardano-serialization-lib-browser");
 };
 loadCsl();
 
