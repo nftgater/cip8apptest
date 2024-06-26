@@ -16,6 +16,15 @@
   color: #2c3e50;
 }
 
+button {
+  background-color: #0a3110;
+  color: white;
+  font-size: 1.2em;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 16px 15px 11px -5px #0a3110;
+}
+
 body {
   background-color: darkblue;
   padding: 1em;
