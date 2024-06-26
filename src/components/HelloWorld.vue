@@ -74,7 +74,8 @@ export default {
   methods: {
     async loadCsl2(){ // In case vue handles methods different than functions
       csl = await import("@emurgo/cardano-serialization-lib-browser/cardano_serialization_lib");
-    }
+    }, 
+    authenticate
   }
   }
 </script>
